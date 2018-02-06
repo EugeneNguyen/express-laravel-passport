@@ -7,4 +7,4 @@ const OauthAccessToken = sequelize.define('oauth_access_tokens', {
   timestamps: false
 });
 
-export default OauthAccessToken;
+exports.default = OauthAccessToken;

@@ -5,4 +5,4 @@ const sequelize = new Sequelize('shoubotenken', 'root', '', {
   dialect: 'mysql'
 });
 
-export default sequelize;
+exports.default = sequelize;

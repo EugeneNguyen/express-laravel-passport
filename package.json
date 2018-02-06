@@ -1,6 +1,6 @@
 {
   "name": "express-laravel-passport",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Small middleware support getting user_id from Bearer header with laravel structure database",
   "main": "index.js",
   "scripts": {
