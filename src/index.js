@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const OauthAccessToken = require('./OauthAccessToken');
 
-exports.default = async function passport_middleware(request, response, next) {
+module.exports = async function passport_middleware(request, response, next) {
   const { headers } = request;
   if (headers.authorization) {
     const authorization = headers.authorization;
