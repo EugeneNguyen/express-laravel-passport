@@ -1,0 +1,27 @@
+{
+  "name": "express-laravel-passport",
+  "version": "1.0.0",
+  "description": "Small middleware support getting user_id from Bearer header with laravel structure database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeneNguyen/express-laravel-passport.git"
+  },
+  "keywords": [
+    "laravel",
+    "passport",
+    "laravel",
+    "express",
+    "express",
+    "passport"
+  ],
+  "author": "Eugene Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeneNguyen/express-laravel-passport/issues"
+  },
+  "homepage": "https://github.com/EugeneNguyen/express-laravel-passport#readme"
+}
