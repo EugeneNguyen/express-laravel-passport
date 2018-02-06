@@ -1,3 +1,6 @@
+require('babel-core/register');
+require('babel-polyfill');
+
 import jwt from 'jsonwebtoken';
 import OauthAccessToken from './OauthAccessToken';
 
