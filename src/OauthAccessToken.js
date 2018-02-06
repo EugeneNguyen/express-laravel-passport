@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
-const sequelize = require('./mysql');
+const sequelize_object = require('./mysql');
 
-const OauthAccessToken = sequelize.define('oauth_access_tokens', {
+const OauthAccessToken = sequelize_object.define('oauth_access_tokens', {
   user_id: Sequelize.INTEGER
 }, {
   timestamps: false
