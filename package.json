@@ -1,6 +1,6 @@
 {
   "name": "express-laravel-passport",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small middleware support getting user_id from Bearer header with laravel structure database",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,22 @@
     "jsonwebtoken": "^8.1.1",
     "mysql2": "^1.5.2",
     "sequelize": "^4.32.7"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb/base",
+      "plugin:import/errors"
+    ],
+    "rules": {
+      "no-use-before-define": 0,
+      "arrow-body-style": 0,
+      "dot-notation": 0,
+      "no-console": 0
+    },
+    "env": {
+      "mocha": true
+    }
   },
   "presets": [
     "es2015"
