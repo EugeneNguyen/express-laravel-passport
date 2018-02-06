@@ -1,5 +1,5 @@
-import Sequelize from 'sequelize';
-import sequelize from './mysql';
+const Sequelize = require('sequelize');
+const sequelize = require('./mysql');
 
 const OauthAccessToken = sequelize.define('oauth_access_tokens', {
   user_id: Sequelize.INTEGER
