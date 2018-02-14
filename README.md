@@ -81,3 +81,21 @@ const resolvers = {
   }
 }
 ```
+
+## Support
+
+```
+if (<you have any idea for our library>) {
+  if (<you can do it by yourself>) {
+    <please do it and make a pull request>
+    <then [email me xuanbinh91@gmail.com](mailto:xuanbinh91@gmail.com)>
+  } else {
+    <just [email me xuanbinh91@gmail.com](mailto:xuanbinh91@gmail.com), we will discuss how to deal with that>
+  }
+}
+```
+
+## Donation
+If the library help you to solve your problem, you can buy me a coffee for night-shift-working to improve this. I will personally send you a picture of that coffee :D 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](paypal.me/developerlibre)
