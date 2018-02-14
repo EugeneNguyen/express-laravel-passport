@@ -25,8 +25,8 @@ yarn add express-laravel-passport
 1. Define your sequelize
 
 ```javascript
-const sequelize = new Sequelize('shoubotenken', 'root', '', {
-  host: 'localhost',
+const sequelize = new Sequelize('your_mysql_database', 'your_mysql_username', 'your_mysql_password', {
+  host: 'your_mysql_host',
   dialect: 'mysql'
 });
 ```
