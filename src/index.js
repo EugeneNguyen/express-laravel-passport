@@ -21,7 +21,7 @@ module.exports = function (sequelize, secret) {
         jwt.verify(token, secret, function(err, data) {
           if (err)
           {
-            response.status(401).json({ error: err });
+            next(err)
           }
         });
         const { jti } = jwt.decode(token);
